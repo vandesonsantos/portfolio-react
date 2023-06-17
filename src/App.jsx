@@ -1,5 +1,6 @@
-import "./components/header/header.css"
-import "./components/header/home.css"
+import "./components/social-networks/header.css"
+import "./components/social-networks/home.css"
+import SocialNetworks from "./components/social-networks/social-networks"
 
 function App() {
   return (
@@ -36,20 +37,7 @@ function App() {
                     <h1>Vandeson Santos</h1>
                     <h2>Desenvolvedor Frontend</h2>
 
-                    <div className="rede-sociais">
-                        <a className="outer-shadow" href="https://www.linkedin.com/in/vandeson-santos/" target="_blank" rel="noreferrer">
-                            <i className="fab fa-linkedin-in"></i>
-                        </a>
-                        <a className="outer-shadow" href="https://web.whatsapp.com/send?phone=5598981353098" target="_blank" rel="noreferrer">
-                            <i className="fab fa-whatsapp"></i>
-                        </a>
-                        <a className="outer-shadow" href="https://github.com/vandesonsantos" target="_blank" rel="noreferrer">
-                            <i className="fab fa-github"></i>
-                        </a>
-                        <a className="outer-shadow" href="https://www.instagram.com/vandeson_santos._/" target="_blank" rel="noreferrer">
-                            <i className="fab fa-instagram"></i>
-                        </a>
-                    </div>
+                    <SocialNetworks />
                 </div>
 
                 <div className="img-home">
