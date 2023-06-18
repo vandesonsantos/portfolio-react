@@ -14,7 +14,7 @@ const Home = () => {
 
                 <div className="img-home">
                     <div className="img-box inner-shadow">
-                        <img className="outer-shadow" src="src/image/foto-perfil.png" alt="foto do perfil" />
+                        <img className="outer-shadow" src="./src/image/foto-perfil.png" alt="foto do perfil" />
                     </div>
                 </div>
             </div>
