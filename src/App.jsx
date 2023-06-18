@@ -1,5 +1,6 @@
 import Header from "./components/header/header"
 import Home from "./components/home/home"
+import Footer from "./components/footer/footer"
 
 
 function App() {
@@ -10,6 +11,8 @@ function App() {
 
         <Home />
       </section>
+
+      <Footer />
     </>
   )
 }
