@@ -1,35 +1,12 @@
-import "./components/social-networks/header.css"
 import "./components/social-networks/home.css"
+import Header from "./components/header/header"
 import SocialNetworks from "./components/social-networks/social-networks"
 
 function App() {
   return (
     <>
       <section className="home">
-        <header className="header">
-            <div className="conteiner">
-                <div className="display-flex justify-content-between alinhar-itens-no-centro">
-                    <a href="#">
-                        <h1 className="logo">{"< />"}</h1>
-                    </a>
-                    
-                    <nav>
-                        <input id="menu-hamburguer" type="checkbox" />
-                        <label htmlFor="menu-hamburguer">
-                            <div className="menu">
-                                <span className="hamburguer"></span>
-                            </div>
-                        </label>
-
-                        <ul>
-                            <li><a href="#sobre-mim">Sobre mim</a></li>
-                            <li><a href="#habilidades">Habilidades</a></li>
-                            <li><a href="#projetos">Meus projetos</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </header>
+        <Header />
 
         <div className="conteiner">
             <div className="display-flex full-screen .alinhar-itens-no-centro">

@@ -1,16 +1,10 @@
-/* .rede-sociais{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-} */
-
 .rede-sociais a{
-    /* display: inline-block; */
+    display: inline-block;
     width: 40px;
     height: 40px;
     font-size: 1.8rem;
     text-align: center;
-    margin: 0 9px;
+    margin: 0 8px;
     border-radius: 50%;
     transition: all 0.3s ease;
 }

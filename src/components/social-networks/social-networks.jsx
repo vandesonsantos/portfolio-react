@@ -1,5 +1,4 @@
 import "./social-networks.css"
-import "./responsive.css"
 
 const SocialNetworks = () => {
     return (
