@@ -1,5 +1,6 @@
 import "./home.css"
 import SocialNetworks from "../social-networks/social-networks"
+import FotoPerfil from "../../image/foto-perfil.png"
 
 const Home = () => {
     return (
@@ -14,7 +15,7 @@ const Home = () => {
 
                 <div className="img-home">
                     <div className="img-box inner-shadow">
-                        <img className="outer-shadow" src="./src/image/foto-perfil.png" alt="foto do perfil" />
+                        <img className="outer-shadow" src={FotoPerfil} alt="foto do perfil" />
                     </div>
                 </div>
             </div>
