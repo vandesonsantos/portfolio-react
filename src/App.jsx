@@ -1,5 +1,6 @@
 import Header from "./components/header/header"
 import Home from "./components/home/home"
+import About from "./components/about/about"
 import Footer from "./components/footer/footer"
 
 
@@ -11,6 +12,8 @@ function App() {
 
         <Home />
       </section>
+
+      <About />
 
       <Footer />
     </>
